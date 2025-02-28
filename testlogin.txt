@@ -1,1 +1,1 @@
-chuc nang login chi thuoc login
+chuc nang login chi thuoc login va test_merge
