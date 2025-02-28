@@ -1,1 +1,1 @@
-file nay chi thuoc test_conflict
+file nay chi thuoc test_conflict va test_merge
