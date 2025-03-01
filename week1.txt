@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 file week 1 thuoc test_conflict chi thuoc 1 file
 
 =======
 file week 1 thuoc test_conflict va main ma thoi
 >>>>>>> Stashed changes
+=======
+file week 1 thuoc test_conflict va main ma thoi
+>>>>>>> main
