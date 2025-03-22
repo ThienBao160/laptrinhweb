@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Màn hình chi tiết</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header,
+        .footer {
+            padding: 15px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        .container {
+            width: 420px;
+            margin: 60px auto;
+            padding: 30px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .info p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .info span {
+            font-weight: bold;
+        }
+
+        .btn-edit {
+            padding: 12px 20px;
+            background-color: rgb(255, 255, 255);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-edit:hover {
+            background-color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        button {
+            width: 40%;
+            padding: 12px;
+            margin-top: 15px;
+            background-color: rgb(255, 255, 255);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+           
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        .header a.logout {
+            color: black;
+            
+           
+        }
+
+        .footer {
+            font-size: 14px;
+            color: rgb(0, 0, 0);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="list.html">Home</a> | <a href="login.html" class="logout">Đăng xuất</a>
+    </div>
+    <div class="container">
+        <h2>Màn hình chi tiết</h2>
+        <div class="info">
+            <p><span>Username:</span> admin</p>
+            <p><span>Email:</span> admin@gmail.com</p>
+        </div>
+        <a href="update.html" class="btn-edit">Chỉnh sửa</a>
+    </div>
+    <div class="footer">
+       
+    </div>
+</body>
+
+</html>

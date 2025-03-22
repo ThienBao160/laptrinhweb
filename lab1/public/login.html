@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header, .footer {
+            padding: 15px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 420px;
+            margin: 60px auto;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            background: white;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 95%;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .remember-me {
+            text-align: left;
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .remember-me input {
+            margin-right: 8px;
+        }
+
+        button {
+            width: 40%;
+            padding: 12px;
+            margin-top: 15px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: rgb(0, 0, 0);
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">Home</a> | <strong>Đăng nhập</strong> | <a href="register.html">Đăng ký</a>
+    </div>
+    <div class="container">
+        <h2>Màn hình đăng nhập</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" id="remember"> <label for="remember">Ghi nhớ đăng nhập</label>
+            </div>
+            <a href="#">Quên mật khẩu?</a>
+            <button type="submit">Đăng nhập</button>
+        </form>
+    </div>
+    <div class="footer">
+        
+    </div>
+</body>
+</html>
