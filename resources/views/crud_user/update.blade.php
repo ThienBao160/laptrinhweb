@@ -20,8 +20,8 @@
                                         <p style="margin-top:20px">User name</p>
                                         <p style="margin-top:35px">Email</p>
                                         <p style="margin-top:28px">Nhập lại mặt khẩu</p>
-                                        <!-- <p style="margin-top:28px">Like</p>
-                                        <p style="margin-top:28px">Github</p> -->
+                                        <p style="margin-top:28px">Like</p>
+                                        <p style="margin-top:28px">Github</p>
                                     </div>
                                 <div class="col-md-8">
                                 <div class="form-group mb-3">

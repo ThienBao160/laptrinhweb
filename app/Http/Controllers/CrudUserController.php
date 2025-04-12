@@ -58,7 +58,7 @@ class CrudUserController extends Controller
     public function postUser(Request $request)
     {
         //kiem tra du lieu  dau vao
-        $fileName = $this->AvatarUpload($request);
+        //$fileName = $this->AvatarUpload($request);
         $request->validate([
             'name' => 'required',
             'email' => 'required|email|unique:users',
@@ -160,7 +160,8 @@ class CrudUserController extends Controller
             'name' => 'required',
             'email' => 'required|email|unique:users,id,' . $input['id'],
             'password' => 'required|min:6',
-            
+            'like' => 'required',
+            'github' => 'required',
         ]);
 
 
@@ -169,8 +170,8 @@ class CrudUserController extends Controller
         $user->name = $input['name'];
         $user->email = $input['email'];
         $user->password = $input['password'];
-       
-
+        $user->like = $input['like'];
+        $user->github = $input['github'];
         $user->update();
 
         return redirect("list")->withSuccess('You have signed-in');

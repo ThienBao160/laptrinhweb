@@ -18,7 +18,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password',100);
             $table->string('like',100);
-            $table->string('github',255);
+            $table->string('github',100);
             // $table->string('avatar',100);
             $table->rememberToken();
             $table->timestamps();

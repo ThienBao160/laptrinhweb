@@ -18,6 +18,8 @@
                             <th>#</th>
                             <th>Username</th>
                             <th>Email</th>
+                            <th>Sở thích</th>
+                            <th>Github</th>
                             <th>Thao tác</th>
                         </tr>
                     </thead>
@@ -27,6 +29,8 @@
                                 <th style="text-align: center;">{{ $user->id }}</th>
                                 <th>{{ $user->name }}</th>
                                 <th>{{ $user->email }}</th>
+                                <th>{{ $user->like }}</th>
+                                <th>{{ $user->github }}</th>
                                 <th>
                                     <a href="{{ route('user.readUser', ['id' => $user->id]) }}">View</a> |
                                     <a href="{{ route('user.updateUser', ['id' => $user->id]) }}">Edit</a> |
